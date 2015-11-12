@@ -1,21 +1,31 @@
 {% extends "base.html" %}
 {% block head %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/ctf.css') }}">
 {{super()}}
 {% endblock %}
 {% block page_content %}
 <br><br>
 <div class="container">
   <div class="row">
-	<div class="col-sm-2">
-    <ul class="nav nav-stacked">
-      <li><a href="#"><span class="glyphicon glyphicon-search"></span> Find learnifyer</a></li>
-      <li><a href="#"><span class="glyphicon glyphicon-th"></span> Browse learnifyers</a></li>
-      <li><a href="#"><span class="glyphicon glyphicon-plus"></span> Create learnifyers</a></li>
-      <li><a href="#"><span class="glyphicon glyphicon-th-list"></span> My learnifyers</a></li>
-      <li><a href="#"><span class="glyphicon glyphicon-star-empty"></span> Favorites </a></li>
-    </ul>
+  <div class="col-sm-2">
   </div>
   <div class="col-sm-8">
+
+<div align="center">
+<a href='http://hackyou.ctf.su/tasks/web100' class='tile' style='background-color: #564aee; text-decoration: none'><span class='cat'>Web</span><br/><span class='cost'>100</span><br/><span class='desc'>Voting</span></a>
+<a href='http://hackyou.ctf.su/tasks/crypto300' class='big tile' style='background-color: #ffa800; text-decoration: none'><span class='cat'>Crypto</span><br/><span class='cost'>300</span><br/><span class='desc'>Matrix</span></a>
+<a href='http://hackyou.ctf.su/tasks/ppc400' class='tile' style='background-color: #57d833; text-decoration: none'><span class='cat'>PPC</span><br/><span class='cost'>400</span><br/><span class='desc'>Broken Marquee</span></a>
+<a href='http://hackyou.ctf.su/tasks/web300' class='tile big solved' style='background-color: #564aee; text-decoration: none'><span class='cat'>Web</span><br/><span class='cost'>300</span><br/><span class='desc'>AngryBird</span></a>
+<a href='http://hackyou.ctf.su/tasks/net200' class='tile' style='background-color: #8e43c9; text-decoration: none'><span class='cat'>Network</span><br/><span class='cost'>200</span><br/><span class='desc'>Jailbreaker</span></a>
+<a href='http://hackyou.ctf.su/tasks/web400' class='tile' style='background-color: #564aee; text-decoration: none'><span class='cat'>Web</span><br/><span class='cost'>400</span><br/><span class='desc'>PHPwning</span></a>
+<a href='http://hackyou.ctf.su/tasks/crypto100' class='tile solved' style='background-color: #ffa800; text-decoration: none'><span class='cat'>Crypto</span><br/><span class='cost'>100</span><br/><span class='desc'>Easy one</span></a>
+<a href='http://hackyou.ctf.su/tasks/net300' class='tile' style='background-color: #8e43c9; text-decoration: none'><span class='cat'>Network</span><br/><span class='cost'>300</span><br/><span class='desc'>HTTPZ</span></a>
+<a href='http://hackyou.ctf.su/tasks/rev100' class='tile' style='background-color: #ea0221; text-decoration: none'><span class='cat'>Reverse</span><br/><span class='cost'>100</span><br/><span class='desc'>NotEasyTask</span></a>
+<a href='http://hackyou.ctf.su/tasks/net300' class='tile' style='background-color: #8e43c9; text-decoration: none'><span class='cat'>Network</span><br/><span class='cost'>300</span><br/><span class='desc'>HTTPZ</span></a>
+<a href='http://hackyou.ctf.su/tasks/net300' class='tile big' style='background-color: #8e43c9; text-decoration: none'><span class='cat'>Network</span><br/><span class='cost'>300</span><br/><span class='desc'>HTTPZ</span></a>
+
+</div>
+
   </div>
   <div class="col-sm-2">
   </div>
